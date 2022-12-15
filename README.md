@@ -50,59 +50,6 @@ $ make
 | nop | opcode should do nothing |
 
 
-
-
-Examples:
-`$ cat opcodetestfile.m`
-
-`push 1`
-
-`push 2`
-
-`push 3`
-
-`pall`
-
-`$ ./montyfile opcodetestfile.m`
-
-`3`
-
-`2`
-
-`1`
-
-`$`
-
----
-
-`$ cat opcodetestfile.m`
-
-`push 1`
-
-`push 2`
-
-`push 3`
-
-`pall`
-
-`rotl`
-
-`pall`
-
-`$ ./montyfile opcodetestfile.m`
-
-`3`
-
-`2`
-
-`1`
-
-`2`
-
-`1`
-
-`3`
-
 ## Exit Status
 Exits with status `EXIT_FAILURE`
 
@@ -115,5 +62,3 @@ All programs and functions were compiled with `gcc 4.8.4` using flags `-Wall -We
 ## Styling
 All files have been written in the Betty Style.
 
-## Authors
-**Yonas Leykun** 
